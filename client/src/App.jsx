@@ -1,4 +1,4 @@
-import Page from "./page.jsx";
+import Page from "./Page.jsx";
 const App =()=>{
   return(
     <div>
