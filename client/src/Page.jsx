@@ -12,7 +12,7 @@ const Page = () => {
       return;
     }
     try {
-      const response = await axios.post("http://localhost:3000/url/", { url });
+      const response = await axios.post("https://url-shortner-v43w.onrender.com/url/", { url });
       setShortUrl("http://localhost:3000/url/" + response.data.shortid);
     } catch (error) {
       console.error(error);
